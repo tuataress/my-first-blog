@@ -25,7 +25,7 @@ SECRET_KEY = '5(#vfsxt&67#(4j9@afax&(brt-0%aar=+)#qtcn0!!0n+h_1x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<tuataress>.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'tuataress.pythonanywhere.com']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog', 
+    'blog',
 ]
 
 MIDDLEWARE = [
